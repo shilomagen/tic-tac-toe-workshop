@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "strict": true,
+      "strictNullChecks": false,
+      "noImplicitReturns": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "importHelpers": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es6",
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "types": ["node", "jest"],
+      "experimentalDecorators": true,
+      "pretty": true,
+      "lib": ["es2016"],
+      "declaration": true
+    },
+    "include": [
+      "./types.d.ts",
+      "./__test__/**/*.ts"
+    ],
+    "files": [
+      "./index.ts"
+    ]
+  }
